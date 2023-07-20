@@ -5,8 +5,16 @@ const Main = ({ children, router }) => {
   return (
     <Box as="main" pb={8}>
       <Head>
-
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Edmond's Portfolio" />
+        <meta name="author" content="Edmond Ma" />
+        <meta name="author" content="edjunma" />
+        <title>Edmond Ma | Portfolio</title>
       </Head>
+
+      <Container maxW="container.md" pt={14}>
+        {children}
+      </Container>
     </Box>
   )
 }
