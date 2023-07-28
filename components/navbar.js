@@ -15,6 +15,7 @@ import {
   useColorModeValue
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
+import ThemeToggleButton from './theme-toggle-button'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
@@ -48,7 +49,71 @@ const Navbar = props => {
       zIndex={2}
       {...props}
     >
-      NavBar
+      <Container
+        display="flex"
+        p={2}
+        maxW="container.md"
+        wrap="wrap"
+        align="center"
+        justify="space-between"
+      >
+        <Flex align="center" mr={5}>
+          <Heading as="h1" size="lg" letterSpacing={'tighter'}>
+            <Logo />
+          </Heading>
+        </Flex>
+
+        <Stack
+          direction={{ base: 'column', md: 'row' }}
+          display={{ base: 'none', md: 'flex' }}
+          width={{ base: 'full', md: 'auto' }}
+          alignItems="center"
+          flexGrow={1}
+          mt={{ base: 4, md: 0 }}
+        >
+          <LinkItem href="/works" path={path}>
+            Works
+          </LinkItem>
+          <LinkItem href="/posts" path={path}>
+            Posts
+          </LinkItem>
+        </Stack>
+
+        <Box flex={1} align="right">
+          <ThemeToggleButton />
+
+          <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
+            <Menu isLazy id="navbar-menu">
+              <MenuButton
+                as={IconButton}
+                icon={<HamburgerIcon />}
+                variant="outline"
+                aria-label="Options"
+              />
+              <MenuList>
+                <MenuItem as={Link} href="/">
+                  About
+                </MenuItem>
+                <MenuItem as={Link} href="/works">
+                  Works
+                </MenuItem>
+                <MenuItem as={Link} href="/posts">
+                  Posts
+                </MenuItem>
+                <MenuItem as={Link} href="https://uses.craftz.dog/">
+                  Uses
+                </MenuItem>
+                <MenuItem
+                  as={Link}
+                  href="https://github.com/craftzdog/craftzdog-homepage"
+                >
+                  View Source
+                </MenuItem>
+              </MenuList>
+            </Menu>
+          </Box>
+        </Box>
+        </Container>
     </Box>
   )
 }
