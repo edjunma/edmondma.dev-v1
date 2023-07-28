@@ -3,6 +3,7 @@ import { Link, Container, Box, Heading, Button, List, ListItem, useColorModeValu
 import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
+import { BioSection, BioYear } from '../components/bio'
 import Image from 'next/image'
 const Page = () => {
   return (
@@ -17,7 +18,7 @@ const Page = () => {
         <Heading as="h2" variant="page-title">
           Edmond Ma
         </Heading>  
-        <p>Full-Stack Developer ( Developer / Designer / Photographer )</p>
+        <p>( Developer / Designer / Photographer )</p>
       </Box>
         <Box
           flexShrink={0}
@@ -51,7 +52,7 @@ const Page = () => {
           Work
         </Heading>
         <Paragraph>
-          Edmond is a freelance and a full-stack developer based in NYC with a
+          Edmond is a freelance and a full-stack developer based in NYC with
           passion for building digital services/stuff he wants. He has a knack
           for all things launching products, from planning and designing all the
           way to solving real-life problems with code. When not online, he loves
@@ -65,7 +66,7 @@ const Page = () => {
             rightIcon={<ChevronRightIcon />}
             colorScheme="teal"
           >
-            My portfolio
+            My Portfolio
           </Button>
         </Box>
       </Section>
