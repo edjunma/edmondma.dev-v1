@@ -1,6 +1,6 @@
 import NextLink from 'next/link'
 import { Link, Container, Box, Heading, Button, List, ListItem, useColorModeValue } from '@chakra-ui/react'
-import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon, EmailIcon, RepeatIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
@@ -69,6 +69,45 @@ const Page = () => {
             My Portfolio
           </Button>
         </Box>
+      </Section>
+
+      <Section delay={0.2}>
+        <Heading as="h3" variant="section-title">
+          Bio
+        </Heading>
+        <BioSection>
+          <BioYear>2008</BioYear>
+          Messing around with MySpace websites, early HTML/CSS, and hacking video games.
+        </BioSection>
+        <BioSection>
+          <BioYear>2012</BioYear>
+          Customizing Tumblr theme templates, interest in Comp Sci. and building automated programs.
+        </BioSection>
+        <BioSection>
+          <BioYear>2018</BioYear>
+          Graduated B.S. from University at Buffalo in MIS.
+        </BioSection>
+        <BioSection>
+          <BioYear>2019</BioYear>
+          Working as IT Support, started self-study web development out of curiosity.
+        </BioSection>
+        <BioSection>
+          <BioYear>2020</BioYear>
+          Front-end developer for Modelfy, and freelance developer.
+        </BioSection>
+      </Section>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          I ♥
+        </Heading>
+        <Paragraph>
+          Doggos, Food, Calisthenics, Gaming, {' '}
+          <Link href="https://blog-v3-five.vercel.app/" target="_blank">
+            Blogging
+          </Link>
+          , One Piece
+        </Paragraph>
       </Section>
     </Container>
     )
