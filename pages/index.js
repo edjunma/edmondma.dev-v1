@@ -89,11 +89,11 @@ const Page = () => {
         </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
-          Working as IT Support, started self-study web development out of curiosity.
+          Worked as IT Support, began self-study web development out of curiosity.
         </BioSection>
         <BioSection>
           <BioYear>2020</BioYear>
-          Front-end developer for Modelfy, and freelance developer.
+          Front-end Developer for Modelfy, and Freelance Developer.
         </BioSection>
       </Section>
 
