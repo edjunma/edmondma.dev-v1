@@ -6,7 +6,7 @@ import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { GridItem } from '../components/grid-item'
 import { BioSection, BioYear } from '../components/bio'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import Image from 'next/image'
 const Page = () => {
   return (
@@ -14,7 +14,7 @@ const Page = () => {
       <Container>
         <Box borderRadius="lg" mb={6} p={3} textAlign="center" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
           css={{ backdropFilter: 'blur(10px)' }}>
-        Hello, I&apos;m a Full-Stack Developer based in NYC!
+        Hello there! I&apos;m a Full-Stack Developer based in NYC.
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -22,7 +22,7 @@ const Page = () => {
           <Heading as="h2" variant="page-title">
             Edmond Ma
           </Heading>  
-          <p>( Developer / Designer / Photographer )</p>
+          <p>( Developer / Designer / Dog Dad )</p>
         </Box>
           <Box
             flexShrink={0}
@@ -81,11 +81,11 @@ const Page = () => {
           </Heading>
           <BioSection>
             <BioYear>2008</BioYear>
-            Messing around with MySpace websites, early HTML/CSS, and hacking video games.
+            Messing around with MySpace websites fumbling around with HTML/CSS and hacking video games.
           </BioSection>
           <BioSection>
             <BioYear>2012</BioYear>
-            Customizing Tumblr theme templates, interest in Comp Sci. and building automated programs.
+            Customized Tumblr theme templates, gained an interest in Comp Sci. and building automated programs & bots.
           </BioSection>
           <BioSection>
             <BioYear>2018</BioYear>
@@ -93,7 +93,7 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
-            Worked as IT Support, began self-study web development out of curiosity.
+            Worked as Desktop IT Support, began to self-study web development out of interest and curiosity.
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>
@@ -106,11 +106,10 @@ const Page = () => {
             I ♥
           </Heading>
           <Paragraph>
-            Doggos, Food, Calisthenics, Gaming, {' '}
+            🐶 Doggos, Boxing, Calisthenics, PC Building, Gaming, Cooking, Traveling, One Piece, and recently {' '}
             <Link href="https://blog-v3-five.vercel.app/" target="_blank">
-              Blogging
+              Blogging.
             </Link>
-            , One Piece
           </Paragraph>
         </Section>
 
@@ -119,11 +118,22 @@ const Page = () => {
             Social Media
           </Heading>
           <List>
+          <ListItem>
+              <Link href="https://linkedin.com/in/edjunma" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="blue"
+                  leftIcon={<IoLogoLinkedin />}
+                >
+                  Edmond Ma
+                </Button>
+              </Link>
+            </ListItem>
             <ListItem>
               <Link href="https://github.com/edjunma" target="_blank">
                 <Button
                   variant="ghost"
-                  colorScheme="teal"
+                  colorScheme="orange"
                   leftIcon={<IoLogoGithub />}
                 >
                   @edjunma
@@ -145,7 +155,7 @@ const Page = () => {
               <Link href="https://instagram.com/edmondma.dev" target="_blank">
                 <Button
                   variant="ghost"
-                  colorScheme="teal"
+                  colorScheme="pink"
                   leftIcon={<IoLogoInstagram />}
                 >
                   @edmondma.dev
@@ -158,7 +168,7 @@ const Page = () => {
             Contact Me
           </Heading>
         <p>
-          Reach out to me through my social links above or email me directly here. Looking forward to collaborating! 😊
+          Please feel free to reach out to me through my social media links above or email me directly. Look forward to chatting soon! 😊
         </p>
 
         <Box align="center" my={4}>
