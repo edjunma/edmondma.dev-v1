@@ -74,8 +74,8 @@ const Navbar = props => {
           <LinkItem href="/projects" path={path}>
             Projects
           </LinkItem>
-          <LinkItem href="/posts" path={path}>
-            Posts
+          <LinkItem href="https://blog-v3-five.vercel.app/" path={path} target="_blank">
+            Blog
           </LinkItem>
         </Stack>
 

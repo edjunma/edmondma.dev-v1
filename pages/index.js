@@ -1,10 +1,12 @@
 import NextLink from 'next/link'
-import { Link, Container, Box, Heading, Button, List, ListItem, useColorModeValue } from '@chakra-ui/react'
-import { ChevronRightIcon, EmailIcon, RepeatIcon } from '@chakra-ui/icons'
+import { Link, Container, Box, Heading, Button, List, ListItem, SimpleGrid, useColorModeValue, chakra } from '@chakra-ui/react'
+import { ChevronRightIcon, EmailIcon} from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
+import { GridItem } from '../components/grid-item'
 import { BioSection, BioYear } from '../components/bio'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import Image from 'next/image'
 const Page = () => {
   return (
@@ -110,6 +112,66 @@ const Page = () => {
             </Link>
             , One Piece
           </Paragraph>
+        </Section>
+
+        <Section delay={0.3}>
+          <Heading as="h3" variant="section-title">
+            Social Media
+          </Heading>
+          <List>
+            <ListItem>
+              <Link href="https://github.com/edjunma" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<IoLogoGithub />}
+                >
+                  @edjunma
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://twitter.com/edjunma" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<IoLogoTwitter />}
+                >
+                  @edjunma
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://instagram.com/edmondma.dev" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<IoLogoInstagram />}
+                >
+                  @edmondma.dev
+                </Button>
+              </Link>
+            </ListItem>
+          </List>
+
+          <Heading as="h3" variant="section-title">
+            Contact Me
+          </Heading>
+        <p>
+          Reach out to me through my social links above or email me directly here. Looking forward to collaborating! 😊
+        </p>
+
+        <Box align="center" my={4}>
+          <Button
+            as={NextLink}
+            href="mailto:edjunma@gmail.com"
+            scroll={false}
+            leftIcon={<EmailIcon />}
+            colorScheme="teal"
+          >
+            Email Me
+          </Button>
+        </Box>
         </Section>
       </Container>
     </Layout>
