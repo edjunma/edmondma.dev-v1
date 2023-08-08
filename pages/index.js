@@ -106,7 +106,7 @@ const Page = () => {
             I ♥
           </Heading>
           <Paragraph>
-            🐶 Doggos, Boxing, Calisthenics, PC Building, Gaming, Cooking, Traveling, One Piece, and recently {' '}
+            🐶 Dogs, Boxing, Calisthenics, PC Building, Gaming, Cooking, Traveling, One Piece, and recently {' '}
             <Link href="https://blog-v3-five.vercel.app/" target="_blank">
               Blogging.
             </Link>
@@ -125,7 +125,7 @@ const Page = () => {
                   colorScheme="blue"
                   leftIcon={<IoLogoLinkedin />}
                 >
-                  Edmond Ma
+                  LinkedIn
                 </Button>
               </Link>
             </ListItem>
@@ -136,7 +136,7 @@ const Page = () => {
                   colorScheme="orange"
                   leftIcon={<IoLogoGithub />}
                 >
-                  @edjunma
+                  GitHub
                 </Button>
               </Link>
             </ListItem>
@@ -168,7 +168,7 @@ const Page = () => {
             Contact Me
           </Heading>
         <p>
-          Please feel free to reach out to me through my social media links above or email me directly. Look forward to chatting soon! 😊
+          Please feel free to reach out to me through my social media links above or email me directly. I look forward to chatting soon! 😊☕
         </p>
 
         <Box align="center" my={4}>

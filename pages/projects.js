@@ -20,7 +20,7 @@ const Projects = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
+          <WorkGridItem id="tinkdrop" title="Tinkdrop" thumbnail={thumbInkdrop}>
             A Markdown note-taking app with 100+ plugins, cross-platform and
             encrypted data sync support
           </WorkGridItem>
@@ -28,17 +28,17 @@ const Projects = () => (
         <Section>
           <WorkGridItem
             id="walknote"
-            title="walknote"
+            title="Sushibae"
             thumbnail={thumbWalknote}
           >
-            Music recommendation app for iOS
+            Responsive website for Sushi restaurant, Sushibae
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="fourpainters"
-            title="The four painters"
+            id="threepainters"
+            title="The three painters"
             thumbnail={thumbFourPainters}
           >
             A video work generated with deep learning, imitating famous four
@@ -46,7 +46,7 @@ const Projects = () => (
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
+          <WorkGridItem id="Ramenkikimenkiki" title="Ramenkiki" thumbnail={thumbMenkiki}>
             An app that suggests ramen(noodle) shops based on a given photo of
             the ramen you want to eat
           </WorkGridItem>
@@ -64,21 +64,21 @@ const Projects = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
+          <WorkGridItem id="meechu" title="Meechu Meechu" thumbnail={thumbPichu2}>
             Twitter client app for iPhone Safari
           </WorkGridItem>
         </Section>
         <Section delay={0.5}>
           <WorkGridItem
-            id="freedbtagger"
+            id="databaseTagger"
             thumbnail={thumbFreeDBTagger}
-            title="freeDBTagger"
+            title="Database Tagger"
           >
             Automatic audio file tagging tool using FreeDB for Windows
           </WorkGridItem>
         </Section>
         <Section delay={0.6}>
-          <WorkGridItem id="amembo" thumbnail={thumbAmembo} title="Amembo">
+          <WorkGridItem id="camembo" title="Camembo" thumbnail={thumbAmembo}>
             P2P private file sharing tool with MSN Messenger integration for
             Windows
           </WorkGridItem>
