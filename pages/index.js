@@ -183,13 +183,14 @@ const Page = () => {
           Please feel free to reach out to me through my social media links above or email me directly. I look forward to chatting soon! 😊☕
         </p>
 
-        <Box align="center" my={4}>
+        <Box align="center" my={6}>
           <Button
             as={NextLink}
             href="mailto:edjunma@gmail.com"
             scroll={false}
             leftIcon={<EmailIcon />}
             colorScheme="teal"
+            _hover={{ transform: 'scale(1.15)'}}
           >
             Email Me
           </Button>
