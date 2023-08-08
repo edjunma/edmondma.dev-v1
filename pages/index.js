@@ -1,6 +1,6 @@
 import NextLink from 'next/link'
 import { Link, Container, Box, Heading, Button, List, ListItem, SimpleGrid, useColorModeValue, chakra } from '@chakra-ui/react'
-import { LinkIcon, EmailIcon} from '@chakra-ui/icons'
+import { LinkIcon, EmailIcon, CopyIcon} from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
@@ -57,10 +57,10 @@ const Page = () => {
           </Heading>
           <Paragraph>
             Edmond is a freelance and a full-stack developer based in NYC with
-            passion for building digital services/stuff he wants. He has a knack
+            passion for building digital products and websites. He has a knack
             for all things launching products, from planning and designing all the
-            way to solving real-life problems with code. When not online, he loves
-            hanging out with his dogs and taking photos. 
+            way to solving real-life problems with code. When not online and coding, he loves
+            to hang out with his dogs, cooking, and recently photography. 
           </Paragraph>
           <Box align="center" my={4}>
             <Button
@@ -70,7 +70,19 @@ const Page = () => {
               rightIcon={<LinkIcon />}
               colorScheme="teal"
             >
-              My Projects
+              View Projects
+            </Button>
+          </Box>
+          <Box align="center" my={4}>
+            <Button
+              as={NextLink}
+              href="https://edjunma.github.io/EJM-Resume/"
+              scroll={false}
+              rightIcon={<CopyIcon />}
+              colorScheme="orange"
+              target="_blank"
+            >
+              View Resume
             </Button>
           </Box>
         </Section>
