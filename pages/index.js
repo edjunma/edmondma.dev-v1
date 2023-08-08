@@ -57,10 +57,10 @@ const Page = () => {
           </Heading>
           <Paragraph>
             Edmond is a freelance and a full-stack developer based in NYC with
-            passion for building digital products and websites. He has a knack
+            a passion for building digital products and  cozy websites. While online, he has a knack
             for all things launching products, from planning and designing all the
-            way to solving real-life problems with code. When not online and coding, he loves
-            to hang out with his dogs, cooking, and recently photography. 
+            way to solving real-life problems with code. When offline, he loves
+            to hang out with his dogs, exercise, cook, and attempt photography. 
           </Paragraph>
           <Box align="center" my={4}>
             <Button
@@ -159,7 +159,7 @@ const Page = () => {
                   colorScheme="teal"
                   leftIcon={<IoLogoTwitter />}
                 >
-                  @edjunma
+                  Twitter X
                 </Button>
               </Link>
             </ListItem>
@@ -170,7 +170,7 @@ const Page = () => {
                   colorScheme="pink"
                   leftIcon={<IoLogoInstagram />}
                 >
-                  @edmondma.dev
+                  Instagram
                 </Button>
               </Link>
             </ListItem>
