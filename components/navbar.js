@@ -14,7 +14,7 @@ import {
   IconButton,
   useColorModeValue
 } from '@chakra-ui/react'
-import { HamburgerIcon } from '@chakra-ui/icons'
+import { ExternalLinkIcon, HamburgerIcon, SettingsIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
 import { IoLogoGithub } from 'react-icons/io5'
 
@@ -76,9 +76,9 @@ const Navbar = props => {
             Projects
           </LinkItem>
           <LinkItem href="https://blog-v3-five.vercel.app/" path={path} target="_blank">
-            Blog
-          </LinkItem>
-          <LinkItem href="https://blog-v3-five.vercel.app/gear" target="_blank">My Gear</LinkItem>
+            <ExternalLinkIcon /> Blog</LinkItem>
+          <LinkItem href="https://blog-v3-five.vercel.app/gear" target="_blank">
+            <SettingsIcon /> Gear</LinkItem>
           <LinkItem
             target="_blank"
             href="https://github.com/edjunma/edmondma.dev-v1"

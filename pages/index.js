@@ -1,6 +1,6 @@
 import NextLink from 'next/link'
 import { Link, Container, Box, Heading, Button, List, ListItem, SimpleGrid, useColorModeValue, chakra } from '@chakra-ui/react'
-import { ChevronRightIcon, EmailIcon} from '@chakra-ui/icons'
+import { LinkIcon, EmailIcon} from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
@@ -12,9 +12,9 @@ const Page = () => {
   return (
     <Layout>
       <Container>
-        <Box borderRadius="lg" mb={6} p={3} textAlign="center" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-          css={{ backdropFilter: 'blur(10px)' }}>
-        Hello there! I&apos;m a Full-Stack Developer based in NYC.
+        <Box borderRadius="lg" mt={6} mb={6} p={3} textAlign="center" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+          css={{ backdropFilter: 'blur(10px)'}}>
+        Hello there ✌️,  I&apos;m a Full-Stack Developer based in NYC
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -53,7 +53,7 @@ const Page = () => {
 
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
-            Work
+            About Me
           </Heading>
           <Paragraph>
             Edmond is a freelance and a full-stack developer based in NYC with
@@ -67,10 +67,10 @@ const Page = () => {
               as={NextLink}
               href="/projects"
               scroll={false}
-              rightIcon={<ChevronRightIcon />}
+              rightIcon={<LinkIcon />}
               colorScheme="teal"
             >
-              My Portfolio
+              My Projects
             </Button>
           </Box>
         </Section>
@@ -103,10 +103,10 @@ const Page = () => {
 
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
-            I ♥
+            Passions ♥
           </Heading>
           <Paragraph>
-            🐶 Dogs, Boxing, Calisthenics, PC Building, Gaming, Cooking, Traveling, One Piece, and recently {' '}
+            🐶 Dogs, Boxing, Calisthenics, Archery, PC Building & Gaming, Cooking, Traveling, One Piece, and recently {' '}
             <Link href="https://blog-v3-five.vercel.app/" target="_blank">
               Blogging.
             </Link>

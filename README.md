@@ -25,6 +25,6 @@ $PROJECT_ROOT
 
 ## License
 
-MIT License.
+MIT License @.
 
 ---
