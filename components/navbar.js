@@ -29,7 +29,6 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
       p={2}
       bg={active ? 'orange200' : undefined}
       color={active ? '#202023' : inactiveColor}
-      borderRadius={6}
       target={target}
       {...props}
     >
@@ -73,7 +72,7 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/projects" path={path}>
+          <LinkItem href="/projects" path={path} borderRadius="md">
             Projects
           </LinkItem>
           <LinkItem href="https://blog-v3-five.vercel.app/" path={path} target="_blank">

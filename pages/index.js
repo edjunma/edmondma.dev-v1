@@ -1,10 +1,9 @@
 import NextLink from 'next/link'
-import { Link, Container, Box, Heading, Button, List, ListItem, SimpleGrid, useColorModeValue, chakra } from '@chakra-ui/react'
+import { Link, Container, Box, Heading, Button, List, ListItem, useColorModeValue, chakra } from '@chakra-ui/react'
 import { LinkIcon, EmailIcon, CopyIcon} from '@chakra-ui/icons'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
-import { GridItem } from '../components/grid-item'
 import { BioSection, BioYear } from '../components/bio'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import Image from 'next/image'
@@ -14,7 +13,7 @@ const Page = () => {
       <Container>
         <Box borderRadius="lg" mt={6} mb={6} p={3} textAlign="center" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
           css={{ backdropFilter: 'blur(10px)'}}>
-        Hello there ✌️,  I&apos;m a Full-Stack Developer based in NYC
+        Hello there ✌️,  I'm a Full-Stack Developer based in NYC!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -190,7 +189,6 @@ const Page = () => {
             scroll={false}
             leftIcon={<EmailIcon />}
             colorScheme="teal"
-            _hover={{ transform: 'scale(1.15)'}}
           >
             Email Me
           </Button>
