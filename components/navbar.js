@@ -106,22 +106,23 @@ const Navbar = props => {
               />
               <MenuList>
                 <MenuItem as={Link} href="/">
-                  About
+                  Home
                 </MenuItem>
                 <MenuItem as={Link} href="/projects">
                   Projects
                 </MenuItem>
-                <MenuItem as={Link} href="/posts">
-                  Posts
+                <MenuItem as={Link} href="https://blog-v3-five.vercel.app/" target="_blank">
+                  Blog
                 </MenuItem>
-                <MenuItem as={Link} href="https://uses.craftz.dog/">
-                  Uses
+                <MenuItem as={Link} href="https://blog-v3-five.vercel.app/gear" target="_blank">
+                  Gear
                 </MenuItem>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/craftzdog/craftzdog-homepage"
+                  href="https://github.com/edjunma/edmondma.dev-v1"
+                  target="_blank"
                 >
-                  View Source
+                  Source
                 </MenuItem>
               </MenuList>
             </Menu>
