@@ -72,7 +72,7 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/projects" path={path} borderRadius="md">
+          <LinkItem href="/projects" path={path} style={{ borderRadius: 6}}>
             Projects
           </LinkItem>
           <LinkItem href="https://blog-v3-five.vercel.app/" path={path} target="_blank">

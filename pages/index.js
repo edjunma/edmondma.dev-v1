@@ -55,11 +55,11 @@ const Page = () => {
             About Me
           </Heading>
           <Paragraph>
-            Edmond is a freelance and a full-stack developer based in NYC with
-            a passion for building digital products and  cozy websites. While online, he has a knack
-            for all things launching products, from planning and designing all the
-            way to solving real-life problems with code. When offline, he loves
-            to hang out with his dogs, exercise, cook, and attempt photography. 
+            Full-Stack Developer with a focus on front end technologies and a passion for building digital products & cozy aesthetic websites. While I'm online, you can always either catch me learning something new or fiddling with a new project to launch. When I'm offline, I love
+            to spend time with my dogs {' '} 
+            <Link href="https://www.instagram.com/heihei.and.elsa/" target="_blank">
+              @heihei.and.elsa
+            </Link>, exercise, cook various food cuisines, and attempt photography.
           </Paragraph>
           <Box align="center" my={4}>
             <Button
