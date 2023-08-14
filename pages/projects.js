@@ -63,7 +63,7 @@ const Projects = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
           <WorkGridItem id="meechu" title="Old Portfolio" thumbnail={thumbPichu2}>
-            Twitter client app for iPhone Safari
+            Old version of my personal portfolio made in GatsbyJS using styled-css.
           </WorkGridItem>
         </Section>
         <Section delay={0.5}>
@@ -72,13 +72,17 @@ const Projects = () => (
             thumbnail={thumbFreeDBTagger}
             title="Old Database Project"
           >
-            Automatic audio file tagging tool using FreeDB for Windows
+            Database organization project for antibodies database
           </WorkGridItem>
         </Section>
         <Section delay={0.6}>
           <WorkGridItem id="camembo" title="Old Share File Project" thumbnail={thumbAmembo}>
-            P2P private file sharing tool with MSN Messenger integration for
-            Windows
+            P2P private file sharing tool
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.6}>
+          <WorkGridItem id="camembo" title="Old Project" thumbnail={thumbAmembo}>
+            Old project demo
           </WorkGridItem>
         </Section>
       </SimpleGrid>
