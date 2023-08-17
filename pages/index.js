@@ -108,7 +108,11 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>
-            Front-end Developer for Modelfy, and Freelance Developer.
+            Front-end Developer for Modelfy.
+          </BioSection>
+          <BioSection>
+            <BioYear>2021</BioYear>
+            Working as a freelance Full-Stack Developer.
           </BioSection>
         </Section>
 
@@ -117,8 +121,7 @@ const Page = () => {
             Passions ♥
           </Heading>
           <Paragraph>
-            🐶 Dogs, Boxing, Calisthenics, Archery, PC Building & Gaming, Cooking, Traveling, One Piece, and recently {' '}
-            <Link href="https://blog-v3-five.vercel.app/" target="_blank">
+            🐶🌱 Dogs & Plants , Archery, Boxing, Calisthenics, Cooking, PC Building & Gaming, Photography, and recently <Link href="https://blog-v3-five.vercel.app/" target="_blank">
               Blogging.
             </Link>
           </Paragraph>
@@ -179,7 +182,7 @@ const Page = () => {
             Contact Me
           </Heading>
         <p>
-          Please feel free to reach out to me through my social media links above or email me directly. I look forward to chatting soon! 😊☕
+          Please feel free to reach out to me through my social media links above or email me directly with the button below. Ask me anything! I look forward to chatting with you soon. 😊☕
         </p>
 
         <Box align="center" my={6}>
@@ -189,6 +192,7 @@ const Page = () => {
             scroll={false}
             leftIcon={<EmailIcon />}
             colorScheme="teal"
+            title="edjunma@gmail.com"
           >
             Email Me
           </Button>
