@@ -11,20 +11,20 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Projects = () => (
-  <Layout title="Inkdrop">
+  <Layout title="Tinkdrop">
     <Container>
       <Title>
-        Inkdrop <Badge>2016</Badge>
+        Tinkdrop <Badge>2018</Badge>
       </Title>
       <P>
-        A Markdown note-taking app with 100+ plugins, cross-platform and
-        encrypted data sync support. The life-time revenue is more than $300k.
+        A note-taking app with 100+ plugins, cross-platform and
+        encrypted data sync support.
       </P>
       <List ml={4} my={4}>
       <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://www.inkdrop.app/">
-            https://www.inkdrop.app/ <ExternalLinkIcon mx="2px" />
+          <Link href="https://www.tinkdrop.app/">
+            https://www.tnkdrop.app/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -38,8 +38,7 @@ const Projects = () => (
         <ListItem>
           <Meta>Blogpost</Meta>
           <Link href="https://blog.inkdrop.app/how-ive-attracted-the-first-500-paid-users-for-my-saas-that-costs-5-mo-7a5b94b8e820">
-            How I’ve Attracted The First 500 Paid Users For My SaaS That Costs
-            $5/mo <ExternalLinkIcon mx="2px" />
+            Demo Blog Post <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
       </List>

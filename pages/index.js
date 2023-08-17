@@ -88,7 +88,7 @@ const Page = () => {
 
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
-            Bio
+            Timeline
           </Heading>
           <BioSection>
             <BioYear>2008</BioYear>
@@ -112,7 +112,7 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
-            Working as a freelance Full-Stack Developer.
+            Working as a Freelance Full-Stack Developer.
           </BioSection>
         </Section>
 
@@ -121,7 +121,7 @@ const Page = () => {
             Passions ♥
           </Heading>
           <Paragraph>
-            🐶🌱 Dogs & Plants , Archery, Boxing, Calisthenics, Cooking, PC Building & Gaming, Photography, and recently <Link href="https://blog-v3-five.vercel.app/" target="_blank">
+            🐶🌱 Dogs & Plants , Archery, Boxing, Calisthenics, Cooking, PC Building & Gaming, Traveling, Photography, and recently <Link href="https://blog-v3-five.vercel.app/" target="_blank">
               Blogging.
             </Link>
           </Paragraph>
