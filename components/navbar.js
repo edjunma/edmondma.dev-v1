@@ -14,7 +14,7 @@ import {
   IconButton,
   useColorModeValue
 } from '@chakra-ui/react'
-import { ExternalLinkIcon, HamburgerIcon, SettingsIcon } from '@chakra-ui/icons'
+import { EditIcon,ExternalLinkIcon, HamburgerIcon, SettingsIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
 import { IoLogoGithub } from 'react-icons/io5'
 
@@ -72,8 +72,8 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/projects" path={path} style={{ borderRadius: 6}}>
-            Projects
+          <LinkItem href="/projects" path={path} style={{ gap: 6, borderRadius: 6}}>
+            <EditIcon /> Projects
           </LinkItem>
           <LinkItem href="https://blog-v3-five.vercel.app/" path={path} target="_blank">
             <ExternalLinkIcon /> Blog</LinkItem>
@@ -85,7 +85,7 @@ const Navbar = props => {
             path={path}
             display="inline-flex"
             alignItems="center"
-            style={{ gap: 4 }}
+            style={{ gap: 6 }}
             pl={2}
           >
             <IoLogoGithub />

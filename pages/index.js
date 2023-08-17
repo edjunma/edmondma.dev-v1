@@ -59,7 +59,7 @@ const Page = () => {
             to spend time with my dogs {' '} 
             <Link href="https://www.instagram.com/heihei.and.elsa/" target="_blank">
               @heihei.and.elsa
-            </Link>, exercise, cook various foods, and attempt photography.
+            </Link>, exercise, cook various cuisines, and these days attempt photography and video editing.
           </Paragraph>
           <Box align="center" my={4}>
             <Button
