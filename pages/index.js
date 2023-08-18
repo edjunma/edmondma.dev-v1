@@ -37,13 +37,13 @@ const Page = () => {
               transitionSpeed={2500}
               glareEnable={true}
               glarePosition='top'
-              glareBorderRadius='100%'
+              glareBorderRadius='50%'
               scale={1.08}
               >
               <Box
                 borderColor="whiteAlpha.800"
                 borderWidth={2}
-                borderStyle="solid"
+                borderStyle="double"
                 w="110px"
                 h="110px"
                 display="inline-block"
