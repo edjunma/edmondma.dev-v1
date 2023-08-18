@@ -7,6 +7,8 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import Image from 'next/image'
+import Tilt from 'react-parallax-tilt';
+
 const Page = () => {
   return (
     <Layout>
@@ -14,7 +16,7 @@ const Page = () => {
         <Box borderRadius="lg" mt={6} mb={6} p={3} textAlign="center" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
           css={{ backdropFilter: 'blur(10px)'}}>
         Hello there ✌️,  I'm a Full-Stack Developer based in NYC!
-      </Box>
+        </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
@@ -29,24 +31,33 @@ const Page = () => {
             ml={{ md: 6 }}
             textAlign="center"
           >
-            <Box
-              borderColor="whiteAlpha.800"
-              borderWidth={2}
-              borderStyle="solid"
-              w="100px"
-              h="100px"
-              display="inline-block"
-              borderRadius="full"
-              overflow="hidden"
-            >
-              <Image
-                src="/images/profile.jpg"
-                alt="Profile image"
+            <Tilt  
+              tiltReverse={true}
+              perspective="300"
+              transitionSpeed={2500}
+              glareEnable={true}
+              glarePosition='top'
+              glareBorderRadius='100%'
+              scale={1.08}
+              >
+              <Box
+                borderColor="whiteAlpha.800"
+                borderWidth={2}
+                borderStyle="solid"
+                w="110px"
+                h="110px"
+                display="inline-block"
                 borderRadius="full"
-                width="100"
-                height="100"
-              />
-            </Box>
+                overflow="hidden"
+              >
+                <Image
+                  src="/images/profile.jpg"
+                  alt="Profile image"
+                  width="110"
+                  height="110"
+                />
+              </Box>
+              </Tilt>
           </Box>
         </Box>
 

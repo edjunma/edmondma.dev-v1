@@ -2,7 +2,6 @@ import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
-
 import thumbInkdrop from '../public/images/projects/inkdrop_eyecatch.png'
 import thumbWalknote from '../public/images/projects/walknote_eyecatch.png'
 import thumbFourPainters from '../public/images/projects/the-four-painters_eyecatch.jpg'
@@ -14,7 +13,7 @@ import thumbAmembo from '../public/images/projects/amembo_eyecatch.png'
 const Projects = () => (
   <Layout>
     <Container>
-      <Heading as="h3" fontSize={20} mb={4} mt={6}>
+      <Heading as="h3" fontSize={20} mb={6} mt={6}>
         My Projects
       </Heading>
 
@@ -62,7 +61,7 @@ const Projects = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="meechu" title="Old Portfolio" thumbnail={thumbPichu2}>
+          <WorkGridItem id="meechu" title="Old Portfolio" thumbnail={thumbPichu2} >
             Old version of my personal portfolio made in GatsbyJS using styled-css.
           </WorkGridItem>
         </Section>
