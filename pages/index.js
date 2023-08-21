@@ -35,9 +35,6 @@ const Page = () => {
               tiltReverse={true}
               perspective="300"
               transitionSpeed={2500}
-              glareEnable={true}
-              glarePosition='top'
-              glareBorderRadius='50%'
               scale={1.08}
               >
               <Box
