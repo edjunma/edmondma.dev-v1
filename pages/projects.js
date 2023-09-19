@@ -51,7 +51,7 @@ const Projects = () => (
         </SimpleGrid>
 
 {/* Old Projects */}
-        <Section delay={0.4}>
+        <Section delay={0.3}>
         <Divider my={6} />
 
           <Heading as="h3" fontSize={20} mb={4}>
@@ -80,7 +80,7 @@ const Projects = () => (
           </WorkGridItem>
         </Section>
         <Section delay={0.6}>
-          <WorkGridItem id="camembo" title="Old Project" thumbnail={thumbAmembo}>
+          <WorkGridItem id="camembo" title="Old Project" thumbnail={thumbPichu2}>
             Old project demo
           </WorkGridItem>
         </Section>

@@ -32,13 +32,13 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
     >
       <Tilt 
         className="parallax-effect-glare-scale"
-        perspective={500}
+        perspective={1000}
         glareEnable={true}
         glareMaxOpacity={0.8}
         glarePosition='all'
-        glareBorderRadius='10px'
-        scale={1.1}
-        transitionSpeed={2500}
+        glareBorderRadius='12px'
+        scale={1.08}
+        transitionSpeed={8000}
         tiltEnable={false}
         >
       <Image
