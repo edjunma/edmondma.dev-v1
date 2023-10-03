@@ -63,7 +63,7 @@ const Page = () => {
             About Me
           </Heading>
           <Paragraph>
-            Full-Stack Developer with a focus on front end technologies and a passion for building digital products & cozy aesthetic websites. While offline, I love to spend time with my doggos {' '}
+            Full-Stack Developer focused on front end technologies with a passion for building digital products & cozy aesthetic websites. When offline, I love to spend time with my dogs {' '}
             <Link href="https://www.instagram.com/heihei.and.elsa/" target="_blank">
               @heihei.and.elsa
             </Link>, exercise for health = wealth, cook various cuisines, and these days fiddle with VR Development, photography and video editing.
