@@ -63,10 +63,10 @@ const Page = () => {
             About Me
           </Heading>
           <Paragraph>
-            Full-Stack Developer focused on front end technologies with a passion for building digital products & cozy aesthetic websites. When offline, I love to spend time with my dogs {' '}
+            Full-Stack Developer focused on front-end technologies with a passion for building digital products & cozy aesthetic websites. When offline, I love to spend time with my dogs {' '}
             <Link href="https://www.instagram.com/heihei.and.elsa/" target="_blank">
               @heihei.and.elsa
-            </Link>, exercise for health = wealth, cook various cuisines, and these days fiddle with VR Development, photography and video editing.
+            </Link>, daily exercise because health is wealth, cook various cuisines, and these days fiddle with VR Development, photography, and video editing.
           </Paragraph>
           <Box align="center" my={4}>
             <Button
@@ -129,7 +129,7 @@ const Page = () => {
           </Heading>
           
           <Paragraph>
-            🐶🌱 Dogs & Plants, Archery, Boxing, Calisthenics, Cooking, PC Building, VR Development, Tech & EDC gear, Traveling, Photography, and recently {' '} 
+            🐶🌱 Dogs & Plants, Archery, Boxing, Calisthenics, Cooking, PC Building, VR Development, Tech & EDC gear, Traveling, Photography, Videography and recently {' '} 
             <Link href="https://blog-v3-five.vercel.app/" target="_blank">
               Blogging 
             </Link>
@@ -192,7 +192,7 @@ const Page = () => {
             Contact Me
           </Heading>
         <p>
-          Please feel free to reach out to me through my social media links above or email me directly with the button below. Ask me anything! I look forward to chatting with you soon. 😊☕
+          Please feel free to reach out to me through my social media links above or email me directly with the button below. Ask me anything! I look forward to chatting & working with you soon! 😊☕
         </p>
 
         <Box align="center" my={6}>
