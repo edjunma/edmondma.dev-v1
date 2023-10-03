@@ -1,9 +1,11 @@
 import { Box } from '@chakra-ui/react'
+import { Link } from '@chakra-ui/react'
 
 const Footer = () => {
   return (
     <Box align="center" opacity={0.69} fontSize="sm">
-      &copy; {new Date().getFullYear()} - Developed with ❤️ by Edmond Ma
+      &copy; {new Date().getFullYear()} - Developed with ❤️ by  
+      <Link href="https://github.com/edjunma" target="_blank"> Edmond Ma</Link>
     {/* <span className="magic">
     <span className="magic-star">
       <svg viewBox="0 0 512 512">

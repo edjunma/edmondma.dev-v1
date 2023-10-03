@@ -127,11 +127,14 @@ const Page = () => {
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
             Passions ♥
-          </Heading>
+          </Heading>7
+          
           <Paragraph>
-            🐶🌱 Dogs & Plants , Archery, Boxing, Calisthenics, Cooking, PC Building & Gaming, Traveling, Photography, and recently <Link href="https://blog-v3-five.vercel.app/" target="_blank">
-              Blogging.
+            🐶🌱 Dogs & Plants, Archery, Boxing, Calisthenics, Cooking, PC Building, VR Development, Tech & EDC gear, Traveling, Photography, and recently&nbsp;
+            <Link href="https://blog-v3-five.vercel.app/" target="_blank">
+              Blogging 
             </Link>
+            &nbsp;in my little corner of the internet about my daily musings.
           </Paragraph>
         </Section>
 
