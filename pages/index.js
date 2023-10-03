@@ -63,11 +63,10 @@ const Page = () => {
             About Me
           </Heading>
           <Paragraph>
-            Full-Stack Developer with a focus on front end technologies and a passion for building digital products & cozy aesthetic websites. While I'm online, you can always either catch me learning something new or fiddling with a new project to launch. When I'm offline, I love
-            to spend time with my dogs {' '} 
+            Full-Stack Developer with a focus on front end technologies and a passion for building digital products & cozy aesthetic websites. While offline, I love to spend time with my doggos {' '}
             <Link href="https://www.instagram.com/heihei.and.elsa/" target="_blank">
               @heihei.and.elsa
-            </Link>, exercise, cook various cuisines, and these days attempt photography and video editing.
+            </Link>, exercise for health = wealth, cook various cuisines, and these days fiddle with VR Development, photography and video editing.
           </Paragraph>
           <Box align="center" my={4}>
             <Button
@@ -127,14 +126,14 @@ const Page = () => {
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
             Passions ♥
-          </Heading>7
+          </Heading>
           
           <Paragraph>
-            🐶🌱 Dogs & Plants, Archery, Boxing, Calisthenics, Cooking, PC Building, VR Development, Tech & EDC gear, Traveling, Photography, and recently&nbsp;
+            🐶🌱 Dogs & Plants, Archery, Boxing, Calisthenics, Cooking, PC Building, VR Development, Tech & EDC gear, Traveling, Photography, and recently {' '} 
             <Link href="https://blog-v3-five.vercel.app/" target="_blank">
               Blogging 
             </Link>
-            &nbsp;in my little corner of the internet about my daily musings.
+            {' '} in my little corner of the internet about my daily musings.
           </Paragraph>
         </Section>
 
