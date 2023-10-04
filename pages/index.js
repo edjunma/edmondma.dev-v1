@@ -66,7 +66,8 @@ const Page = () => {
             Full-Stack Developer focused on front-end technologies with a passion for building digital products & cozy aesthetic websites. When offline, I love to spend time with my dogs {' '}
             <Link href="https://www.instagram.com/heihei.and.elsa/" target="_blank">
               @heihei.and.elsa
-            </Link>, exercise because health is wealth, cook various cuisines, and these days fiddle with VR Development, photography, and video editing.
+            </Link>
+            , cook dishes from various cuisines, exercise because health is wealth, and recently have been fiddling with VR Development, photography, and video editing.
           </Paragraph>
           <Box align="center" my={4}>
             <Button
