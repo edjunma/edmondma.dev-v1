@@ -131,7 +131,7 @@ const Page = () => {
           </Heading>
           
           <Paragraph>
-            🐶🌱 Dogs & Plants, Archery, Boxing, Calisthenics, Home Cooking, PC Building, VR Development, Tech gadgets & EDC gear, Traveling, Photography, Videography and recently {' '} 
+            🐶🌱 Dogs & Plants, Archery, Boxing, MMA, Calisthenics, Home Cooking, PC Building, VR Development, Tech & EDC gear, Traveling, Photography, Videography and recently {' '} 
             <Link href="https://blog-v3-five.vercel.app/" target="_blank">
               Blogging 
             </Link>
