@@ -100,19 +100,23 @@ const Page = () => {
           </Heading>
           <BioSection>
             <BioYear>2008</BioYear>
-            Messing around with MySpace websites fumbling around with HTML/CSS and hacking video games.
+            Fumbling around with HTML/CSS in the days of MySpace themes and hacking video games.
           </BioSection>
           <BioSection>
             <BioYear>2012</BioYear>
             Customized Tumblr theme templates, gained an interest in Comp Sci. and building automated programs & bots.
           </BioSection>
           <BioSection>
+            <BioYear>2017</BioYear>
+            Database Administrator Internship at HJKRI.
+          </BioSection>
+          <BioSection>
             <BioYear>2018</BioYear>
-            Graduated B.S. from University at Buffalo in MIS.
+            Graduated B.S. from University at Buffalo in Business Administration and Management Information Systems.
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
-            Worked as Desktop IT Support, began to self-study web development out of interest and curiosity.
+            Worked as Desktop Support & IT Support Specialist, began to self-study web development out of interest and curiosity.
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>
@@ -135,7 +139,7 @@ const Page = () => {
             <Link href="https://blog-v3-five.vercel.app/" target="_blank">
               Blogging 
             </Link>
-            {' '} in my little corner of the internet about my daily musings.
+            {' '} in my little corner of the internet about my experiences.
           </Paragraph>
         </Section>
 
