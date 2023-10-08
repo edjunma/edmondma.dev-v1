@@ -63,11 +63,11 @@ const Page = () => {
             About Me
           </Heading>
           <Paragraph>
-            Full-Stack Developer focused on front-end technologies with a passion for building digital products & cozy aesthetic websites. When offline, I love to spend time with my dogs {' '}
+            Full-Stack Developer focused on front-end technologies with a passion for developing digital products & cozy aesthetic websites. When offline, I love to spend time with my dogs {' '}
             <Link href="https://www.instagram.com/heihei.and.elsa/" target="_blank">
               @heihei.and.elsa
             </Link>
-            , cook dishes from various cuisines, exercise because health is wealth, and recently have been fiddling with VR Development, photography, and video editing.
+            , cook food from various cuisines, exercise because health is wealth, and recently have been fiddling with VR Development, photography, and video editing.
           </Paragraph>
           <Box align="center" my={4}>
             <Button
@@ -100,7 +100,7 @@ const Page = () => {
           </Heading>
           <BioSection>
             <BioYear>2008</BioYear>
-            Fumbling around with HTML/CSS in the days of MySpace themes and hacking video games.
+            Started fumbling around with HTML/CSS in the days of MySpace themes and hacking video games.
           </BioSection>
           <BioSection>
             <BioYear>2012</BioYear>
@@ -120,7 +120,7 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>
-            Front-end Developer for Modelfy.
+            Front-end Developer for Modelfy startup.
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
@@ -135,7 +135,7 @@ const Page = () => {
           </Heading>
           
           <Paragraph>
-            🐶🌱 Dogs & Plants, Archery, Boxing, MMA, Calisthenics, Home Cooking, PC Building, VR Development, Tech & EDC gear, Traveling, Photography, Videography and recently {' '} 
+            🐶🌱 Dogs & Plants, Archery, Boxing, MMA, Calisthenics, Food & Home Cooking, PC Building, VR Development, Tech & EDC gear, Traveling, Photography, Videography and recently {' '} 
             <Link href="https://blog-v3-five.vercel.app/" target="_blank">
               Blogging 
             </Link>
