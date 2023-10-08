@@ -19,10 +19,12 @@ const LogoBox = styled.span`
 
   &:hover > svg {
     transform: rotate(30deg);
+    transition: 250ms ease;
   }
 
   &:active > svg {
     transform: rotate(-30deg);
+    transition: 250ms ease;
   }
 `
 

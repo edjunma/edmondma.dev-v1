@@ -67,7 +67,7 @@ const Page = () => {
             <Link href="https://www.instagram.com/heihei.and.elsa/" target="_blank">
               @heihei.and.elsa
             </Link>
-            , cook my favorite comfort meals, exercise because health is wealth, and recently been fiddling with VR Development, photography, and video editing.
+            , chef up my favorite comfort meals, exercise because health is wealth, and recently have been fiddling with VR Development, photography, and video editing.
           </Paragraph>
           <Box align="center" my={4}>
             <Button
@@ -108,7 +108,7 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2017</BioYear>
-            Database Administrator Internship at HJKRI.
+            Designed and sold video game assets/templates and Wordpress starter websites that were profitable.
           </BioSection>
           <BioSection>
             <BioYear>2018</BioYear>
