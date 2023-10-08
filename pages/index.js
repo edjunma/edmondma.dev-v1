@@ -100,7 +100,7 @@ const Page = () => {
           </Heading>
           <BioSection>
             <BioYear>2008</BioYear>
-            Started fumbling around with HTML/CSS in the days of MySpace themes and hacking video games.
+            Started dabbling in HTML/CSS during the days of MySpace.
           </BioSection>
           <BioSection>
             <BioYear>2012</BioYear>
@@ -120,7 +120,7 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>
-            Front-end Developer for Modelfy startup.
+            Worked as Front-end Developer for Modelfy.
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
