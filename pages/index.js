@@ -67,7 +67,7 @@ const Page = () => {
             <Link href="https://www.instagram.com/heihei.and.elsa/" target="_blank">
               @heihei.and.elsa
             </Link>
-            , cook food from various cuisines, exercise because health is wealth, and recently have been fiddling with VR Development, photography, and video editing.
+            , cook my favorite comfort meals, exercise because health is wealth, and recently been fiddling with VR Development, photography, and video editing.
           </Paragraph>
           <Box align="center" my={4}>
             <Button
