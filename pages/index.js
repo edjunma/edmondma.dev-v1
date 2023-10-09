@@ -106,10 +106,10 @@ const Page = () => {
             <BioYear>2012</BioYear>
             Customized Tumblr theme templates, gained an interest in Comp Sci. and building automated programs & bots.
           </BioSection>
-          <BioSection>
+          {/* <BioSection>
             <BioYear>2017</BioYear>
             Designed and sold video game assets/templates and Wordpress starter websites that were profitable.
-          </BioSection>
+          </BioSection> */}
           <BioSection>
             <BioYear>2018</BioYear>
             Graduated B.S. from University at Buffalo in Business Administration and Management Information Systems.
